@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Facebook Log-in"/>
+    <meta name="auther" content="Ayah Dweikat"/>
+    <link rel="icon" href="assets/img/login/facebook_logo_icon_147291.ico">
+    <title>Messenger | Facebook</title>
+    <!-- Bootstrap V5.2-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome V6.1.2 -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/facebook-messenger.css">   
+</head>
+<body>
+    <nav class="navbar shadow-md d-flex">
+        <div class="row container-fluid pb-1">
+            <div class="col-0 col-lg-3 ms-lg-3 logo d-flex justify-content-start pb-2">
+                <a class="navbar-brand" href="facebook-main.html">
+                  <img src="assets/img/home/navbar/Facebook_f_logo_(2019).svg.png" alt="Facebook" width="100%" height="40"/>
+                </a>
+                <form class="search d-flex" role="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="form-control me-2" type="search" placeholder="Search Facebook" aria-label="Search"/>
+                </form>
+            </div> 
+            <div class="col-6 col-md-6 m-0 pb-2 main-navs">
+                <ul class="nav-items pt-2 d-flex justify-content-end align-items-center">
+                    <li class="col-4 nav-item ms-5 p-0">
+                        <a class="nav-link" aria-current="page" href="facebook-main.html" >
+                            <i class="fa-solid fa-house"></i>
+                        </a>
+                    </li> 
+                    <li class="col-4 col-md-3 nav-item">
+                        <a class="nav-link" href="facebook-watch.html">
+                            <i class="fa-solid fa-tv"></i>
+                        </a>
+                    </li>
+                    <li class="col-4 col-md-3 nav-item">
+                        <a class="nav-link" href="#3">
+                            <i class="fa-solid fa-users-rectangle"></i>
+                        </a>
+                    </li>
+                    <li class="col-0 col-md-3 nav-item">
+                        <a class="nav-link" href="#4">
+                            <i class="fa-solid fa-chess-board"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-2 m-0 p-0 last-navs">
+                <ul class="list-items pt-2 d-flex justify-content-end align-items-center">
+                    <li class="list-item" >
+                        <a href="#1">
+                            <i class="fa-solid fa-braille padd"></i>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="facebook-messenger.html">
+                            <i class="fa-brands fa-facebook-messenger"></i>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="facebook-notifiaction.html">
+                            <i class="fa-solid fa-bell pe-1"></i>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="Facebook-profile.html">
+                        <img src="assets/img/home/navbar/287763838_3065022583812635_3914264570691738347_n.jpg" alt="Profile Picture for the user"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="d-flex justify-content-center">
+        <div class="chats col-lg-3">
+            <div class="nav-chat bg-dark">
+                <div class="title d-flex justify-content-between">
+                    <span>Chats</span>
+                    <ul class="d-flex justify-content-between me-2">
+                        <li>
+                            <i class=" mx-1 fa-solid fa-ellipsis"></i>
+                        </li>
+                        <li>
+                            <i class="mx-1 fa-solid fa-video"></i>
+                        </li>
+                        <li>
+                            <i class="mx-1 fa-solid fa-file-pen"></i>
+                        </li>
+                    </ul>
+                </div>
+                <form class="search d-flex ww mt-2 mb-3" role="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="form-control me-2 w-100 my-1" type="search" placeholder="Search Messenger" aria-label="Search">
+                </form>
+            </div>
+            <ul class="convers">
+                <li class="d-flex flex-row justify-content-center py-2 m-2">
+                    <img class="mt-2" src="assets/img/messenger/ruba.jpg" alt="Ruba Badawi "/>
+                    <div class="descrip d-flex flex-column">
+                        <span>Ruba Badawi</span>
+                        <span>Lorem ipsum dolor sit amet ae...<span>22 m</span></span>
+                    </div>                  
+                </li>
+            </ul>
+            <ul class="convers">
+                <li class="d-flex flex-row justify-content-center py-2 m-2">
+                    <img class="mt-2" src="assets/img/messenger/fofo.jpg" alt="Faeqa Husam"/>
+                    <div class="descrip d-flex flex-column">
+                        <span>Faeqa Husam</span>
+                        <span>Lorem ipsum dolor sit amet ae...<span>46 m</span></span>
+                    </div>                  
+                </li>
+            </ul>
+            <ul class="convers">
+                <li class="d-flex flex-row justify-content-center py-lg-2 m-lg-2">
+                    <img class="mt-2 img-2" src="assets/img/messenger/rasha.jpg" alt="React Stars"/>
+                    <img class="mt-2 img-2" src="assets/img/messenger/samah.jpg" alt="React Stars"/>
+                    <div class="descrip d-flex flex-column">
+                        <span>React Stars</span>
+                        <span>Lorem ipsum dolor sit amet ae...<span>1 h</span></span>
+                    </div>                  
+                </li>
+            </ul>
+            <ul class="convers">
+                <li class="d-flex flex-row justify-content-center py-2 m-2">
+                    <img class="mt-2" src="assets/img/messenger/haneen.jpg" alt="Haneen Dweikat"/>
+                    <div class="descrip d-flex flex-column">
+                        <span>Haneen Dweikat</span>
+                        <span>Lorem ipsum dolor sit amet ae...<span>8 h</span></span>
+                    </div>                  
+                </li>
+            </ul>
+            <ul class="convers">
+                <li class="d-flex flex-row justify-content-center py-2 m-2">
+                    <img class="mt-2" src="assets/img/messenger/aziz.jpg" alt="Aziz B. Dweikat"/>
+                    <div class="descrip d-flex flex-column">
+                        <span>Aziz B. Dweikat</span>
+                        <span>Lorem ipsum dolor sit amet ae...<span>1 d</span></span>
+                    </div>                  
+                </li>
+            </ul>
+            <ul class="convers">
+                <li class="d-flex flex-row justify-content-center py-2 m-2">
+                    <img class="mt-2" src="assets/img/messenger/raghad.jpg" alt="Raghad Ali Habayeb"/>
+                    <div class="descrip d-flex flex-column">
+                        <span>Raghad Ali Habayeb</span>
+                        <span>Lorem ipsum dolor sit amet ae...<span>3 d</span></span>
+                    </div>                  
+                </li>
+            </ul>
+            <ul class="convers">
+                <li class="d-flex flex-row justify-content-center py-lg-2 m-lg-2">
+                    <img class="mt-2 img-2" src="assets/img/messenger/az.jpg" alt="My Family"/>
+                    <img class="mt-2 img-2" src="assets/img/messenger/ha.jpg" alt="My Family"/>
+                    <div class="descrip d-flex flex-column">
+                        <span>My Family</span>
+                        <span>Lorem ipsum dolor sit amet ae...<span>4 d</span></span>
+                    </div>                  
+                </li>
+            </ul>  
+            <ul class="convers">
+                <li class="d-flex flex-row justify-content-center py-2 m-2">
+                    <img class="mt-2" src="assets/img/messenger/reham-ab.jpg" alt="Reham Abu-Ghdaib"/>
+                    <div class="descrip d-flex flex-column">
+                        <span>Reham Abu-Ghdaib</span>
+                        <span>Lorem ipsum dolor sit amet ae...<span>4 d</span></span>
+                    </div>                  
+                </li>
+            </ul>
+            <ul class="convers">
+                <li class="d-flex flex-row justify-content-center py-2 m-2">
+                    <img class="mt-2" src="assets/img/messenger/jamila.jpg" alt="Jamila Jamal Ahmad"/>
+                    <div class="descrip d-flex flex-column">
+                        <span>Jamila Jamal Ahmad</span>
+                        <span>Lorem ipsum dolor sit amet ae...<span>1 w</span></span>
+                    </div>                  
+                </li>
+            </ul>
+        </div>
+        <div class="chat1 col-lg-6">
+            <div class="nav-conver d-flex justify-content-between">
+                <div class="conver-name">
+                    <img src="assets/img/messenger/ruba-chat.jpg" alt="Ruba Badawi"/>
+                    <span>Ruba Badawi</span>
+                </div>
+                <ul class="d-flex justify-content-between">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-video"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle-info"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="r-chat d-flex flex-column">
+                <span class="owner">
+                    Ayah ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="other">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="owner">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="other">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="owner">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="other">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="owner">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="other">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="owner">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="other">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="owner">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="other">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="owner">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="other">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="owner">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="other">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="owner">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="other">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="owner">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="other">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="owner">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="other">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="owner">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+                <span class="other">
+                    Ruba ipsum, dolor sit amet consectetur adipisicing.
+                </span>
+            </div>
+            <div class="foot-bar">
+                <ul class="pink-color d-flex justify-content-start">
+                    <li>
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-images"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-note-sticky"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-gift"></i>
+                    </li>
+                    <li>
+                        <form class="d-flex" role="search">
+                            <input class="form-control" type="search" placeholder="Aa" aria-label="Search">
+                        </form>
+                    </li>
+                    <li>
+                        <i class="pink-color fa-solid fa-heart"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="more col-lg-3">
+            <img src="assets/img/messenger/ruba---.jpg" alt="Ruba Badawi"/>
+            <h3>Ruba Badawi</h3>
+            <ul class="more-choices d-flex justify-content-between me-2">
+                <li>
+                    <i class="fa-brands fa-facebook"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-bell"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+            </ul>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item transparent">
+                  <h2 class="accordion-header " id="panelsStayOpen-headingOne">
+                    <button class="accordion-button collapsed transparent" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                        Customise chat
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <ul class="w-100">
+                            <li>
+                                <button class="dropdown-item" type="button">
+                                    <i class="pink-color fa-solid fa-circle-dot"></i>
+                                    Change theme
+                                </button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" type="button">
+                                    <i class="pink-color fa-solid fa-heart"></i>
+                                    Change emoji
+                                </button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" type="button">
+                                    <i class="fa-solid fa-font"></i>
+                                    Edit nicknames
+                                </button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" type="button">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    Search in conversation
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item transparent">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed transparent" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Media, files and links
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <ul class="w-100">
+                            <li>
+                                <button class="dropdown-item" type="button">
+                                    <i class="fa-solid fa-images"></i>
+                                    Media
+                                </button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" type="button">
+                                    <i class="fa-solid fa-file"></i>
+                                    Files
+                                </button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" type="button">
+                                    <i class="fa-solid fa-link"></i>
+                                    Links
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item transparent">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed transparent" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      Privacy and support
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <ul class="w-100">
+                            <li>
+                                <button class="dropdown-item" type="button">
+                                    <i class="fa-solid fa-bell"></i>
+                                    Mute notifications
+                                </button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" type="button">
+                                    <i class="fa-solid fa-comment-slash"></i>
+                                    Ignore Messages
+                                </button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" type="button">
+                                    <i class="fa-solid fa-ban"></i>
+                                    Block
+                                </button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" type="button">
+                                    <i class="fa-solid fa-triangle-exclamation"></i>
+                                    Report
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </header>
+  <!-- JS Bootstrap V5.2 -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>   
+</body>
+</html>
